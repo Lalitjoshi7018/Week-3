@@ -15,7 +15,6 @@ public class StudentArray
     {
         StudentDemo [] studentList = new StudentDemo[5];
         StudentDemo student1 = new StudentDemo("1", "Jim Halpern");
-        System.out.println("Hello");
         studentList[0] = student1;
         studentList[1] = new StudentDemo("2", "Michael Scott");
         studentList[2] = new StudentDemo("3", "Pam Beasley");
